@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://imgs.search.brave.com/MHB7ALFWHvLhmp-loYGf_eKHlvsPjEhRfkkN3eRxWnQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1wc2QvM2Qt/aWNvbi13ZWF0aGVy/LWNvbmRpdGlvbnMt/d2l0aC10aHVuZGVy/c3Rvcm1fMjMtMjE1/MDEwODcyNy5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" name="name" id="name" placeholder="Enter city Name" spellcheck="false">
+            <button id="btn"><img src="./images/search.png" alt=""></button>
+        </div>
+        <div class="weather">
+            <img src="./images/clear.png" class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind">15km/hr</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
