@@ -94,7 +94,10 @@ https://api.openweathermap.org/data/2.5/weather?units=metric&q={city_name}&appid
 
 ## Screenshots
 
-![Default Screen](https://github.com/user-attachments/assets/7938eba8-1b49-4d57-8c02-09b8ab32c237)      ![for Delhi](https://github.com/user-attachments/assets/8540d3e8-7e23-4792-96e0-79e1e606c1f8)
+![Default](https://github.com/user-attachments/assets/adb9a04a-8d2a-40eb-a36b-a2f45945d8fb)  ![Delhi](https://github.com/user-attachments/assets/6aa302e8-42d5-4f5f-ad3f-7bda30c9c66f)
+
+
+     
 
 
 
