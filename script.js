@@ -4,6 +4,9 @@ let btn=document.querySelector("#btn");
 const searchBox=document.querySelector(".search input");
 const weather_icon=document.querySelector(".weather-icon");
 
+//This is weather or temperature finding function. Here you can You can search any city in the search box and
+//find the temperature and weather condition of the particular city across the world.
+
 async function checkweather(city){
     const response=await fetch(url+city+`&appid=${apikey}`);
     var data=await response.json();
